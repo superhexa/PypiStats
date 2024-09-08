@@ -1,8 +1,10 @@
----
+<div align="center">
 
 # PyPI Stats Telegram Bot
 
 A simple Telegram bot that fetches and displays download statistics for PyPI packages using BigQuery.
+
+</div>
 
 ## Features
 
