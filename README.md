@@ -1,3 +1,5 @@
+---
+
 # PyPI Stats Telegram Bot
 
 A simple Telegram bot that fetches and displays download statistics for PyPI packages using BigQuery.
@@ -5,7 +7,7 @@ A simple Telegram bot that fetches and displays download statistics for PyPI pac
 ## Features
 
 - **Retrieve Download Stats:** Get the total number of downloads for any PyPI package.
-- **User-Friendly Interface:** Interact with the bot using simple commands and inline buttons..
+- **User-Friendly Interface:** Interact with the bot using simple commands and inline buttons.
 
 ## How It Works
 
@@ -30,9 +32,9 @@ To set up the bot on your own, follow these steps:
    ```
 
 3. **Configure the Bot:**
-   - Edit `config.py` file with your Telegram bot token and BigQuery credentials:
+   - Edit the `config.py` file with your Telegram bot token and BigQuery credentials:
      ```python
-     TOKEN = '' # TOKEN for your Telegram bot
+     TOKEN = '' # Your Telegram bot token
      PROJECT_ID = '' # Your Google Cloud Project ID (the project where BigQuery is set up)
      KEYS_JSON = '' # Path to your Google Cloud service account credentials JSON file
      ```
@@ -52,3 +54,5 @@ Contributions are welcome! Please fork the repository, make your changes, and su
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
